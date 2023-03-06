@@ -5,5 +5,7 @@ while(number < 100):
         print(number,"Fizz")
     if number%5==0:
         print(number,"Buzz")
+    if number %5==0 and number%3==0:
+        print(number,"FizzBuzz")
     else:
         print(number)
